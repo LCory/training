@@ -1,0 +1,39 @@
+**Name**
+Plot Women
+
+**Description**
+A script to plot an enhanced version of the women dataset of R
+
+**Usage**
+Change the original plot step by step
+
+**Input**
+women (dataset contained in R)
+
+**Out**
+1. plot weight vs height
+2. abscissa and ordinate
+3. title and subtitle
+
+**author**
+L.C.
+
+
+
+*Plot*
+```{r}
+plot (women)
+```
+
+*Plot + axes*
+```{r}
+plot (women, xlab="weight in pounds", ylab="height in inches")
+```
+
+*Plot + axes + title*
+
+```{r}
+plot (women, xlab="Weight in pounds", ylab="height in inches", title(main="Obesity of U.S. American Women", sub="A graph depicting the weight of obese american Women in relation to their weight."))
+```
+
+
