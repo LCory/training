@@ -35,5 +35,3 @@ plot (women, xlab="weight in pounds", ylab="height in inches")
 ```{r}
 plot (women, xlab="Weight in pounds", ylab="height in inches", title(main="Obesity of U.S. American Women", sub="A graph depicting the weight of obese american Women in relation to their weight."))
 ```
-
-
