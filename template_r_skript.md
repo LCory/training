@@ -1,30 +1,39 @@
-**name**
-==========================================
-plot cars
+**Name**
+Plot Women
 
 **Description**
-==========================================
-A simple script to plot the car dataset of R
+A script to plot an enhanced version of the women dataset of R
 
 **Usage**
-call the function line by line 
+Change the original plot step by step
 
 **Input**
-cars (dataset yet implemented in R)
+women (dataset contained in R)
 
-**Output**
-1. plot speed vs distance 
-2. give information of variables (console)
+**Out**
+1. plot weight vs height
+2. abscissa and ordinate
+3. title and subtitle
 
 **author**
-M.O.
+L.C.
 
 
-**plot speed vs distance**
+
+*Plot*
 ```{r}
-plot(cars)
+plot (women)
 ```
-**informationen zu den variablen**
+
+*Plot + axes*
+```{r}
+plot (women, xlab="weight in pounds", ylab="height in inches")
+```
+
+*Plot + axes + title*
 
 ```{r}
-str(cars)
+plot (women, xlab="Weight in pounds", ylab="height in inches", title(main="Obesity of U.S. American Women", sub="A graph depicting the weight of obese american Women in relation to their weight."))
+```
+
+
